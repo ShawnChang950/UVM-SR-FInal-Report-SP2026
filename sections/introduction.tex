@@ -1,3 +1,6 @@
 % Introduce the problem, motivation, and relevant background.
 % Cite prior work using \cite{key} — entries go in references.bib.
-\lipsum[2-7] This is a sample citation \cite{placeholder2024}.
+The Shift Register is a fundamental sequential logic component used for temporary data storage and controlled bit movement in digital systems. Shift registers often operate on clock edges and include control signals such as shift enable and active-low reset. Because of this, a single mistake within the component can result in data corruption, incorrect bit propagation, loss of synchronization, and overall system malfunction. Therefore, thorough verification is required to ensure reliable operation under both normal and corner-case conditions.
+
+The reason SoCET has decided to use the Universal Verification Methodology (UVM) is due to its structured, modular, and reusable architecture. Instead of rewriting large testbenches after completing each design, UVM allows engineers to reuse existing testbench components such as drivers, monitors, scoreboards, and even agents across multiple projects. This significantly reduces development time, as well as allows an extremely scalable verification environment for complex digital systems.
+
