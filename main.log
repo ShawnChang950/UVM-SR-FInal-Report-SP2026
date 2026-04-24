@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.22)  24 APR 2026 01:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.22)  24 APR 2026 01:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -530,18 +530,8 @@ Package pdftex.def Info: figures/Driver.png  used on input line 46.
 <figures/Monitor.png, id=71, 770.88pt x 560.0925pt>
 File: figures/Monitor.png Graphic file (type png)
 <use figures/Monitor.png>
-Package pdftex.def Info: figures/Monitor.png  used on input line 62.
+Package pdftex.def Info: figures/Monitor.png  used on input line 63.
 (pdftex.def)             Requested size: 247.94499pt x 180.1477pt.
-
-Underfull \hbox (badness 5832) in paragraph at lines 59--66
-[]\OT1/ptm/m/n/10 After up-dat-ing its in-ter-nal golden ref-er-ence model,
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 59--66
-\OT1/ptm/m/n/10 the Pre-dic-tor as-signs \OT1/pcr/m/n/10 model[]q \OT1/ptm/m/n/10 to \OT1/pcr/m/n/10 parallel[]out \OT1/ptm/m/n/10 and
- []
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -549,53 +539,39 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/Scoreboard_imp.png, id=82, 295.1025pt x 72.27pt>
 File: figures/Scoreboard_imp.png Graphic file (type png)
 <use figures/Scoreboard_imp.png>
-Package pdftex.def Info: figures/Scoreboard_imp.png  used on input line 81.
+Package pdftex.def Info: figures/Scoreboard_imp.png  used on input line 82.
 (pdftex.def)             Requested size: 247.94499pt x 60.7218pt.
 <figures/Scoreboard.png, id=83, 517.935pt x 542.77782pt>
 File: figures/Scoreboard.png Graphic file (type png)
 <use figures/Scoreboard.png>
-Package pdftex.def Info: figures/Scoreboard.png  used on input line 88.
+Package pdftex.def Info: figures/Scoreboard.png  used on input line 89.
 (pdftex.def)             Requested size: 247.94499pt x 259.84297pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<figures/Predictor.png, id=84, 435.87843pt x 318.43968pt>
+File: figures/Predictor.png Graphic file (type png)
+<use figures/Predictor.png>
+Package pdftex.def Info: figures/Predictor.png  used on input line 103.
+(pdftex.def)             Requested size: 247.94499pt x 181.13835pt.
 
-Underfull \hbox (badness 5832) in paragraph at lines 100--101
-[]\OT1/ptm/m/n/10 After up-dat-ing its in-ter-nal golden ref-er-ence model,
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 100--101
-\OT1/ptm/m/n/10 the pre-dic-tor as-signs \OT1/pcr/m/n/10 model[]q \OT1/ptm/m/n/10 to \OT1/pcr/m/n/10 parallel[]out \OT1/ptm/m/n/10 and
- []
-
-File: figures/Scoreboard.png Graphic file (type png)
-<use figures/Scoreboard.png>
-Package pdftex.def Info: figures/Scoreboard.png  used on input line 104.
-(pdftex.def)             Requested size: 247.94499pt x 259.84297pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 113--114
+Underfull \hbox (badness 1721) in paragraph at lines 112--113
 \OT1/ptm/m/n/10 trans-ac-tion fields, such as \OT1/pcr/m/n/10 nRST\OT1/ptm/m/n/10 , \OT1/pcr/m/n/10 shift[]enable\OT1/ptm/m/n/10 , and
  []
 
-<figures/Sequence.png, id=84, 536.75531pt x 206.27063pt>
+[3 <./figures/Monitor.png> <./figures/Scoreboard_imp.png> <./figures/Scoreboard.png> <./figures/Predictor.png>]
+<figures/Sequence.png, id=97, 536.75531pt x 206.27063pt>
 File: figures/Sequence.png Graphic file (type png)
 <use figures/Sequence.png>
-Package pdftex.def Info: figures/Sequence.png  used on input line 117.
+Package pdftex.def Info: figures/Sequence.png  used on input line 116.
 (pdftex.def)             Requested size: 247.94499pt x 95.28221pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (sections/evaluation.tex [3 <./figures/Monitor.png> <./figures/Scoreboard_imp.png> <./figures/Scoreboard.png>]
+) (sections/evaluation.tex
 Underfull \hbox (badness 1320) in paragraph at lines 8--9
 []\OT1/ptm/m/n/10 After run-ning the ran-dom-ized se-quence, the test-bench
  []
 
-<figures/coverage_collect.png, id=95, 464.4853pt x 152.82094pt>
+<figures/coverage_collect.png, id=98, 464.4853pt x 152.82094pt>
 File: figures/coverage_collect.png Graphic file (type png)
 <use figures/coverage_collect.png>
 Package pdftex.def Info: figures/coverage_collect.png  used on input line 12.
@@ -605,7 +581,7 @@ Underfull \hbox (badness 4859) in paragraph at lines 17--18
 []\OT1/ptm/m/n/10 Another way of eval-u-at-ing the ac-cu-rate-ness of the
  []
 
-<figures/waveforms.png, id=96, 850.67813pt x 156.585pt>
+<figures/waveforms.png, id=99, 850.67813pt x 156.585pt>
 File: figures/waveforms.png Graphic file (type png)
 <use figures/waveforms.png>
 Package pdftex.def Info: figures/waveforms.png  used on input line 24.
@@ -627,17 +603,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 77512713B0E75AEF71AF4A7A6F053559;1611.
  ) 
 Here is how much of TeX's memory you used:
- 14459 strings out of 467871
- 246771 string characters out of 5418376
+ 14466 strings out of 467871
+ 246966 string characters out of 5418376
  779268 words of memory out of 5000000
- 43109 multiletter control sequences out of 15000+600000
+ 43116 multiletter control sequences out of 15000+600000
  648994 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,893b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (5 pages, 450463 bytes).
+Output written on main.pdf (5 pages, 466413 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 133 PDF objects out of 1000 (max. 8388607)
  30 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

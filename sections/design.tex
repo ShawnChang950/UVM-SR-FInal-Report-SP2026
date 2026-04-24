@@ -28,7 +28,7 @@ Figure 2 down below captures a snippet of the Shift Register IF. The Interface, 
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{figures/IF.png}
-    \caption{Shift Register Interface}
+    \caption{Shift Register Interface modports}
     \label{fig:placeholder}
 \end{figure}
 
@@ -48,15 +48,16 @@ After the positive edge of the clock, the driver calls  \texttt{seq\_item\_port.
     \label{fig:placeholder}
 \end{figure}
 
+
 \subsubsection{Monitor}
 
-Figure 7 captures the essence of the Predictor. The Predictor is responsible for generating the expected output of the shift register.
+Figure 4 captures a snippet of the Shift Register Monitor. The Monitor is responsible for passively observing the DUT interface and converting signal activity into transaction objects. Unlike the Driver, the Monitor does not control the DUT. Instead, it samples the interface signals and sends the observed information to other UVM components for checking and coverage collection.
 
-In this design, the Predictor extends \texttt{uvm\_subscriber}, which allows it to receive transactions through the \texttt{write()} function. The main variable used is \texttt{model\_q}, which represents the Predictor's golden reference model of the Shift Register. On every transaction, the Predictor updates this variable based on the reset and shift enable signals.
+In this design, the Monitor uses analysis ports to forward transactions. One stream captures the stimulus applied to the DUT, while the other captures the DUT output response. This separation allows the Predictor and Scoreboard to compare the expected and actual behavior of the Shift Register.
 
-If \texttt{nRST} is low, the Predictor accurately models the DUT's reset behavior by resetting the output to all ones. If reset is not active and \texttt{shift\_enable} is high, the Predictor shifts in \texttt{serial\_in}. The direction of the shift depends on the \texttt{SHIFT\_MSB} parameter, and the size of \texttt{parallel\_out} depends on the \texttt{NUM\_BITS} parameter.
+The Monitor samples signals around the clock edge so that the captured transaction reflects the DUT behavior after inputs have been applied and the output has had time to update. This is important because incorrect sampling timing can cause race conditions, where the Scoreboard compares an expected value against an output value from the wrong cycle.
 
-After updating its internal golden reference model, the Predictor assigns \texttt{model\_q} to \texttt{parallel\_out} and sends this expected transaction to the Scoreboard through \texttt{predictor\_ap}.
+The Monitor also supports functional coverage collection. By observing reset, shift enable, serial input, and output behavior, the Monitor helps measure whether the randomized sequence has exercised the important Shift Register scenarios.
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{figures/Monitor.png}
@@ -95,13 +96,11 @@ Figure 7 Captures the essence of the Predictor. The predictor is responsible for
 
 In this design, the predictor extends \texttt{uvm\_subscriber}, which allows it to receive transactions thorough the \texttt{write()} function. The main variable used is \texttt{model\_q}, which represents the Predictor's golden reference model of the Shift Register. On every transaction, the Predictor updates that variable based on reset, as well as shift enable signals.
 
-If \texttt{nRST} is low, the Predictor accurately models the DUT's reset behaviour by reseting the output to all ones. IF reset is not active and \texttt{shift\_enable} is high, the predictor shifts in \texttt{serial\_in}. The direction of shift depends on the \texttt{SHIFT\_MSB} parameter, and the size of \texttt{parallel\_out} depends on the \texttt{NUM\_BITS} parameter. 
-
-After updating its internal golden reference model, the predictor assigns \texttt{model\_q} to \texttt{parallel\_out} and sends this expected transaction to the scoreboard through \texttt{predictor\_ap}
+If \texttt{nRST} is low, the Predictor accurately models the DUT's reset behaviour by reseting the output to all ones. IF reset is not active and \texttt{shift\_enable} is high, the predictor shifts in \texttt{serial\_in}. The direction of shift depends on the \texttt{SHIFT\_MSB} parameter, and the size of \texttt{parallel\_out} depends on the \texttt{NUM\_BITS} parameter. After updating its internal golden reference model, the predictor assigns \texttt{model\_q} to \texttt{parallel\_out} and sends this expected transaction to the scoreboard through \texttt{predictor\_ap}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{figures/Scoreboard.png}
+    \includegraphics[width=1\linewidth]{figures/Predictor.png}
     \caption{Shift Register Predictor}
     \label{fig:placeholder}
 \end{figure}

@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1777007683.42345 "main.aux" "main.bbl" "main" 1777008351.91929 0
+["bibtex main"] 1777009757.52739 "main.aux" "main.bbl" "main" 1777009873.00507 0
   "./references.bib" 1776905762 924 7866c584992cf35212762f5bba07f7cd ""
   "C:/Users/super/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1777008350 4752 86d765554c10d99d82684aa978b74667 "pdflatex"
+  "main.aux" 1777009872 4770 dfaf3f2d453746d328a3a9119bf48544 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1777008349.88269 "c:/Users/super/UVM-SR-FInal-Report-SP2026/main.tex" "main.pdf" "main" 1777008351.91984 0
+["pdflatex"] 1777009870.43464 "c:/Users/super/UVM-SR-FInal-Report-SP2026/main.tex" "main.pdf" "main" 1777009873.00599 0
   "C:/Users/super/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776910676 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/super/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1776910545 13333487 7cc16c96947af8f511767824707ccb4a ""
   "C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -111,19 +111,20 @@
   "figures/Driver.png" 1776973542 92730 7a075e771d4bf4ff47c306105773441d ""
   "figures/IF.png" 1776971403 51022 99b484c83a52d186b32662baf7916812 ""
   "figures/Monitor.png" 1777000584 85913 e8dd75889eccd3e7d1be02899ed9acd2 ""
+  "figures/Predictor.png" 1777005588 30568 4269ae921f06956db874a5c2afeacf70 ""
   "figures/Scoreboard.png" 1777005169 65911 681151f41baaa7b3faf52233860ba5d7 ""
   "figures/Scoreboard_imp.png" 1777005076 8025 f5c7ef021958e1333eddd49512b75a84 ""
   "figures/Sequence.png" 1777006592 24572 ff06db9b3649fd91fea2ff5d9981c32d ""
   "figures/Shift_register_RTL.drawio.png" 1776449182 43094 c0bc9460d10c3dd3de3f24f4c729c4e9 ""
   "figures/coverage_collect.png" 1777007287 119979 6faeb6ca6a8075c577c345ba297a191e ""
   "figures/waveforms.png" 1777007990 108212 e9f286c1bf4f98899f1d01348e29dca6 ""
-  "main.aux" 1777008350 4752 86d765554c10d99d82684aa978b74667 "pdflatex"
-  "main.bbl" 1777007683 901 628a2a8c68e066122d1514411e0b8455 "bibtex main"
-  "main.out" 1777008350 1611 77512713b0e75aef71af4a7a6f053559 "pdflatex"
+  "main.aux" 1777009872 4770 dfaf3f2d453746d328a3a9119bf48544 "pdflatex"
+  "main.bbl" 1777009757 901 628a2a8c68e066122d1514411e0b8455 "bibtex main"
+  "main.out" 1777009872 1611 77512713b0e75aef71af4a7a6f053559 "pdflatex"
   "main.tex" 1777008308 3846 941dcbdcb109364e5ff6145d337a54c1 ""
   "sections/abstract.tex" 1776914632 2196 ca855705a12c5d73dc4c59243ba97cca ""
   "sections/conclusion.tex" 1777008154 884 73a4116640d7f58b09b6f1ade973f2f3 ""
-  "sections/design.tex" 1777006797 9454 f818e813fbab95418699d63f9a43fb60 ""
+  "sections/design.tex" 1777009869 9638 eb32ff879654f4b8a547dc21e0b3e66e ""
   "sections/evaluation.tex" 1777007871 2440 fc7921a692665fd62a84265a97885904 ""
   "sections/introduction.tex" 1776914292 1181 b095f0f912986f59aa518fe249bca76e ""
   "sections/teamwork.tex" 1777008349 258 8eea4eea862a63f660b168517fa86a2a ""
