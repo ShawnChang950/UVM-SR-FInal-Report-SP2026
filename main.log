@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.22)  22 APR 2026 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.22)  24 APR 2026 01:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -331,8 +331,62 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 39.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 52.
 (C:\Users\super\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (main.aux
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder@cref' multiply defined.
+
 )
-No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -353,6 +407,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -413,6 +468,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\super\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 52.
+ (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -433,109 +489,155 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 
 
 {C:/Users/super/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (sections/abstract.tex) (sections/introduction.tex) (sections/design.tex
-<figures/Shift_register_RTL.drawio.png, id=11, 713.66624pt x 442.65375pt>
+<figures/Shift_register_RTL.drawio.png, id=63, 713.66624pt x 442.65375pt>
 File: figures/Shift_register_RTL.drawio.png Graphic file (type png)
 <use figures/Shift_register_RTL.drawio.png>
-Package pdftex.def Info: figures/Shift_register_RTL.drawio.png  used on input line 15.
+Package pdftex.def Info: figures/Shift_register_RTL.drawio.png  used on input line 18.
 (pdftex.def)             Requested size: 247.94499pt x 153.78964pt.
-) (sections/evaluation.tex
 
-sections/evaluation.tex:15: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15     \caption
-                 {Features of Ipsum}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-sections/evaluation.tex:17: Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.17 \end{table}
-                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-sections/evaluation.tex:17: Extra \endgroup.
-\color@endgroup ->\endgraf \@endpefalse \endgroup 
-                                                  
-l.17 \end{table}
-                
-Things are pretty mixed up, but I think the worst is over.
-
-sections/evaluation.tex:17: Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.17 \end{table}
-                
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-sections/evaluation.tex:17: LaTeX Error: \begin{document} ended by \end{table}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \end{table}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-sections/evaluation.tex:17: Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.17 \end{table}
-                
-Things are pretty mixed up, but I think the worst is over.
-
-) (sections/conclusion.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114 
-       [1
+l.22 
+      [1
 
-] (main.bbl) (sections/teamwork.tex) [2
+]
+<figures/IF.png, id=69, 1012.5328pt x 345.54094pt>
+File: figures/IF.png Graphic file (type png)
+<use figures/IF.png>
+Package pdftex.def Info: figures/IF.png  used on input line 30.
+(pdftex.def)             Requested size: 247.94499pt x 84.61345pt.
 
- <./figures/Shift_register_RTL.drawio.png>] (main.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+[]\OT1/ptm/m/n/10 Inside the for-ever loop, the driver calls
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\OT1/pcr/m/n/10 seq[]item[]port.get[]next[]item(req[]item) \OT1/ptm/m/n/10 to
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 42--43
+[]\OT1/ptm/m/n/10 After the pos-i-tive edge of the clock, the driver calls
+ []
+
+<figures/Driver.png, id=70, 1101.36469pt x 568.37344pt>
+File: figures/Driver.png Graphic file (type png)
+<use figures/Driver.png>
+Package pdftex.def Info: figures/Driver.png  used on input line 46.
+(pdftex.def)             Requested size: 247.94499pt x 127.94788pt.
+<figures/Monitor.png, id=71, 770.88pt x 560.0925pt>
+File: figures/Monitor.png Graphic file (type png)
+<use figures/Monitor.png>
+Package pdftex.def Info: figures/Monitor.png  used on input line 62.
+(pdftex.def)             Requested size: 247.94499pt x 180.1477pt.
+
+Underfull \hbox (badness 5832) in paragraph at lines 59--66
+[]\OT1/ptm/m/n/10 After up-dat-ing its in-ter-nal golden ref-er-ence model,
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 59--66
+\OT1/ptm/m/n/10 the Pre-dic-tor as-signs \OT1/pcr/m/n/10 model[]q \OT1/ptm/m/n/10 to \OT1/pcr/m/n/10 parallel[]out \OT1/ptm/m/n/10 and
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./figures/Shift_register_RTL.drawio.png> <./figures/IF.png> <./figures/Driver.png>]
+<figures/Scoreboard_imp.png, id=82, 295.1025pt x 72.27pt>
+File: figures/Scoreboard_imp.png Graphic file (type png)
+<use figures/Scoreboard_imp.png>
+Package pdftex.def Info: figures/Scoreboard_imp.png  used on input line 81.
+(pdftex.def)             Requested size: 247.94499pt x 60.7218pt.
+<figures/Scoreboard.png, id=83, 517.935pt x 542.77782pt>
+File: figures/Scoreboard.png Graphic file (type png)
+<use figures/Scoreboard.png>
+Package pdftex.def Info: figures/Scoreboard.png  used on input line 88.
+(pdftex.def)             Requested size: 247.94499pt x 259.84297pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 100--101
+[]\OT1/ptm/m/n/10 After up-dat-ing its in-ter-nal golden ref-er-ence model,
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 100--101
+\OT1/ptm/m/n/10 the pre-dic-tor as-signs \OT1/pcr/m/n/10 model[]q \OT1/ptm/m/n/10 to \OT1/pcr/m/n/10 parallel[]out \OT1/ptm/m/n/10 and
+ []
+
+File: figures/Scoreboard.png Graphic file (type png)
+<use figures/Scoreboard.png>
+Package pdftex.def Info: figures/Scoreboard.png  used on input line 104.
+(pdftex.def)             Requested size: 247.94499pt x 259.84297pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 113--114
+\OT1/ptm/m/n/10 trans-ac-tion fields, such as \OT1/pcr/m/n/10 nRST\OT1/ptm/m/n/10 , \OT1/pcr/m/n/10 shift[]enable\OT1/ptm/m/n/10 , and
+ []
+
+<figures/Sequence.png, id=84, 536.75531pt x 206.27063pt>
+File: figures/Sequence.png Graphic file (type png)
+<use figures/Sequence.png>
+Package pdftex.def Info: figures/Sequence.png  used on input line 117.
+(pdftex.def)             Requested size: 247.94499pt x 95.28221pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (sections/evaluation.tex [3 <./figures/Monitor.png> <./figures/Scoreboard_imp.png> <./figures/Scoreboard.png>]
+Underfull \hbox (badness 1320) in paragraph at lines 8--9
+[]\OT1/ptm/m/n/10 After run-ning the ran-dom-ized se-quence, the test-bench
+ []
+
+<figures/coverage_collect.png, id=95, 464.4853pt x 152.82094pt>
+File: figures/coverage_collect.png Graphic file (type png)
+<use figures/coverage_collect.png>
+Package pdftex.def Info: figures/coverage_collect.png  used on input line 12.
+(pdftex.def)             Requested size: 247.94499pt x 81.57765pt.
+
+Underfull \hbox (badness 4859) in paragraph at lines 17--18
+[]\OT1/ptm/m/n/10 Another way of eval-u-at-ing the ac-cu-rate-ness of the
+ []
+
+<figures/waveforms.png, id=96, 850.67813pt x 156.585pt>
+File: figures/waveforms.png Graphic file (type png)
+<use figures/waveforms.png>
+Package pdftex.def Info: figures/waveforms.png  used on input line 24.
+(pdftex.def)             Requested size: 247.94499pt x 45.63785pt.
+) (sections/conclusion.tex) (main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 24.
+
+) (sections/teamwork.tex) [4 <./figures/Sequence.png> <./figures/coverage_collect.png> <./figures/waveforms.png>] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  940CDFF9D6B4263B84C003F7D306F566;616.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 77512713B0E75AEF71AF4A7A6F053559;1611.
  ) 
 Here is how much of TeX's memory you used:
- 14367 strings out of 467871
- 244574 string characters out of 5418376
- 780268 words of memory out of 5000000
- 43041 multiletter control sequences out of 15000+600000
- 647426 words of font info for 86 fonts, out of 8000000 for 9000
+ 14459 strings out of 467871
+ 246771 string characters out of 5418376
+ 779268 words of memory out of 5000000
+ 43109 multiletter control sequences out of 15000+600000
+ 648994 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,893b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 78758 bytes).
+ 75i,11n,79p,893b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/super/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (5 pages, 450463 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

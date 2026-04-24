@@ -1,17 +1,27 @@
 % Present experiments, metrics, and results.
 % Use tables (\begin{table}...\end{table}) and figures where appropriate.
 
+In this project, the metric used to evaluate the completeness of the testbench is functional coverage. Functional coverage was collected through the Monitor using covergroups, coverpoints, bins, and cross coverage. This metric was chosen because it shows how well the randomized test sequence exercised the important behaviors of the Shift Register, rather than only showing whether the simulation passed or failed.
+
+The coverage model measured toggle coverage as well as functional coverage of control signals. This includes reset behavior, shift enable activity, serial input values, and shift direction cases. Cross coverage was used to check that combinations of these signals were tested together. This is important because a shift register may work correctly for individual signal values but still fail for certain combinations of reset, shift enable, and serial input, failing due to priority issues.
+
+After running the randomized sequence, the testbench achieved a functional coverage result of \textbf{90\%} as seen in Figure 9 below. This result indicates that the testbench exercised most of the intended Shift Register scenarios. Any uncovered bins represent cases that were not generated during random testing and could be improved in future work by adding more and more transactions. In this iteration of the testbench, only 20 transactions were added as Questa Sim failed to compile on thinlinc due to cloud issues.
+
+\begin{figure}[h]
     \centering
-    \begin{tabular}{|c|c|}
-        \hline
-        Category & Score \\
-        \hline
-        Coolness & 31.1 \\
-        Cuteness & 15.2 \\
-        Toughness & 1.15 \\
-        Elasticity & 87.5 \\
-        \hline
-    \end{tabular}
-    \caption{Features of Ipsum}
-    \label{tab:placeholder}
-\end{table}
+    \includegraphics[width=1\linewidth]{figures/coverage_collect.png}
+    \caption{Functional Coverage Collector}
+    \label{fig:placeholder}
+\end{figure}
+
+Another way of evaluating the accurateness of the DUT/UVM testbench is through looking at its waveforms. In Figure 10 below, we are able to see that at every single shift  high, the correct value of serial in is shifted in. Additionally, when comparing \texttt{parallel\_out} and \texttt{q}, we can see that at every point in time, they are the same.
+
+Another thing to check is negative reset behaviour. When negative reset is asserted, the \texttt{parallel\_out} and \texttt{q} value both reset to all ones.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\linewidth]{figures/waveforms.png}
+    \caption{Waveforms}
+    \label{fig:placeholder}
+\end{figure}
